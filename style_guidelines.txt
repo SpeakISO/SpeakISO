@@ -1,5 +1,5 @@
 Colour Theme: 
-  The website will have a black, grey, and dark blue colour palette for a sleek and technological feel. The monochromatic black and grey will give a feel of silver and metal, highlighting the modern high-tech design of the IsoGen I.
+  The website will have a black, grey, and dark blue colour palette (#000000 #14213D #E5E5E5) for a sleek and technological feel. The monochromatic black and grey will give a feel of silver and metal, highlighting the modern high-tech design of the IsoGen I.
 
 Typography: 
   There are three fonts used:
@@ -8,3 +8,4 @@ Typography:
     Paragraph: Kefa Regular (https://fonnts.com/kefa/)
 
 Website Design:
+
