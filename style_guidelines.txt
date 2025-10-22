@@ -7,5 +7,5 @@ Typography:
     Headline: Impact Font (https://www.dafontfree.io/impact-font/)
     Paragraph: Kefa Regular (https://fonnts.com/kefa/)
 
-Website Design:
-
+Website Design Extra:
+  Buttons and designs have hard edges, no rounded corners. Simplistic website.
