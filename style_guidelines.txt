@@ -1,5 +1,10 @@
-Colour Theme:
+Colour Theme: 
+  The website will have a black, grey, and dark blue colour palette for a sleek and technological feel. The monochromatic black and grey will give a feel of silver and metal, highlighting the modern high-tech design of the IsoGen I.
 
-Typography:
+Typography: 
+  There are three fonts used:
+    Display: Semi-Straight Regular Style Capitol City Font (https://www.fontspace.com/capitol-city-font-f145949)
+    Headline: Impact Font (https://www.dafontfree.io/impact-font/)
+    Paragraph: Kefa Regular (https://fonnts.com/kefa/)
 
 Website Design:
