@@ -1,4 +1,20 @@
-body {
-    background-color: lightblue;
-    font-family: Arial, sans-serif;
+@import url('https://www.fontspace.com/capitol-city-font-f145949?family=Semi-Straight');
+@import url('https://www.dafontfree.io/impact-font/?family=Impact');
+@import url('https://fonnts.com/kefa/?family=Kefa');
+body{
+    font-family: 'Impact','Kefa',sans-serif;
+    background-color: black;
+}
+h1,h2,h3{
+    font-family: 'Impact',sans-serif;
+}
+p{
+    font-family: 'Kefa',sans-serif;
+    background-color: #E5E5E5;
+}
+div{
+    background-color: #14213D;
+}
+d{
+    font-family:'Semi-Straight',sans-serif;
 }
