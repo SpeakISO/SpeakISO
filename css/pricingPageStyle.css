@@ -1,8 +1,79 @@
 /* Page strictly for pricing page*/
 
-@import url('https://www.fontspace.com/capitol-city-font-f145949?family=Semi-Straight');
 @import url('https://www.dafontfree.io/impact-font/?family=Impact');
 @import url('https://fonnts.com/kefa/?family=Kefa');
+
+@font-face {
+    font-family: Capitol;
+    src: url('../Fonts/CapitolCitySemiStraight-9M5Gj.otf') format('opentype');
+}
+
+
+
+/* setup */
+body {
+    font-family: 'Impact', 'Kefa', 'Capitol' sans-serif;
+    color: #E5E5E5;
+    background-color: black;
+}
+
+div {
+    background-color: #14213D;
+}
+
+d {
+    font-family: 'Capitol', sans-serif;
+
+}
+
+/* top navigator bar */
+.topNav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #E5E5E5;
+    top: 0;
+    left: 0;
+    width: 99%;
+    padding: 10px 10px;
+    text-align: left;
+    background: #14213D;
+    color: #E5E5E5;
+}
+
+.topNav a {
+    font-family: 'Kefa', sans-serif;
+    color: #E5E5E5;
+    float: left;
+    text-align: center;
+    padding: 4px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.topNav a.SpeakISO {
+    font-family: 'Capitol', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.topNav a:hover {
+    background-color: #393F94;
+}
+
+.topNav a.active {
+    background-color: #393F94;
+}
+
+.topNav-right {
+    float: right;
+}
+
+
+
+
+
 
 * {
     margin: 0;
@@ -87,4 +158,53 @@ img{
 #info{
     display: flex;
     flex-direction: column;
+}
+
+
+
+/* bottom navigator bar */
+.botNav {
+    overflow: hidden;
+    background-color: #E5E5E5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    text-align: left;
+    background: #14213D;
+    color: #E5E5E5;
+}
+
+.botNav-left {
+    color: #E5E5E5;
+    float: left;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 10px;
+    border-radius: 4px;
+}
+
+.botNav-right .twt {
+    padding: 5px;
+    background-color: #aaa;
+    margin: 8px;
+    float: right;
+}
+
+.botNav-right .fb {
+    padding: 5px;
+    background-color: #aaa;
+    margin: 8px;
+    float: right;
+}
+
+.botNav-right .ig {
+    padding: 5px;
+    background-color: #aaa;
+    margin: 8px;
+    float: right;
+    margin-right: 20px;
 }
