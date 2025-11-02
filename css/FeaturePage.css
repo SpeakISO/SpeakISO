@@ -1,7 +1,10 @@
 /* external css file*/
-@import url('https://www.fontspace.com/capitol-city-font-f145949?family=Semi-Straight');
 @import url('https://www.dafontfree.io/impact-font/?family=Impact');
 @import url('https://fonnts.com/kefa/?family=Kefa');
+@font-face {
+    font-family: Capitol;
+    src: url('../Fonts/CapitolCitySemiStraight-9M5Gj.otf') format('opentype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -14,31 +17,54 @@ body {
     flex-direction: column;
     height: 100vh;
 }
-.top-menu {
-    background-color: #14213D;
-    padding: 15px 0;
-    text-align: right;
-    width: 100%;
+.topNav {
     position: fixed;
+    overflow: hidden;
+    background-color: #E5E5E5;
     top: 0;
     left: 0;
-    z-index: 1000;
+    width: 99%;
+    padding: 10px 10px;
+    text-align: left;
+    background: #14213D;
+    color: #E5E5E5;
 }
-.top-menu a {
-    color: white;
+
+.topNav a {
+    font-family: 'Kefa', sans-serif;
+    color: #E5E5E5;
+    float: left;
+    text-align: center;
+    padding: 4px 20px;
     text-decoration: none;
-    margin: 0 20px;
-    padding: 8px 16px;
-    font-size: 16px;
-    font-family: 'Impact';
-}
-.top-menu a:hover {
-    background-color: black;
+    font-size: 20px;
+    line-height: 25px;
     border-radius: 4px;
 }
+
+.topNav a.SpeakISO {
+    font-family: 'Capitol', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.topNav a:hover {
+    background-color: #393F94;
+}
+
+.topNav a.active {
+    background-color: #393F94;
+}
+
+.topNav-right {
+    float: right;
+}
+
 .main-content {
     display: flex;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 120px);
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .left-section {
     width: 75%;
@@ -96,7 +122,7 @@ body {
 
 .right-section{
     width: 25%;
-    padding: 0 40px;
+    padding: 20px 40px;
     height: 100%;
     overflow-y: auto;
     background-color: #14213D;
@@ -134,10 +160,56 @@ body {
     border-radius: 6px;
     text-align: center;
     margin-top: 20px;
-    font-family: sans-serif;
+    font-family: 'Impact',sans-serif;
     font-weight: bold;
     transition: background-color 0.3s;
 }
 .main-action-btn:hover {
     background-color: #14213D;
+}
+
+.botNav {
+    overflow: hidden;
+    background-color: #E5E5E5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    text-align: left;
+    background: #14213D;
+    color: #E5E5E5;
+}
+
+.botNav-left {
+    color: #E5E5E5;
+    float: left;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 10px;
+    border-radius: 4px;
+}
+
+.botNav-right .twt {
+    padding: 5px;
+    background-color: #aaa;
+    margin: 8px;
+    float: right;
+}
+
+.botNav-right .fb {
+    padding: 5px;
+    background-color: #aaa;
+    margin: 8px;
+    float: right;
+}
+
+.botNav-right .ig {
+    padding: 5px;
+    background-color: #aaa;
+    margin: 8px;
+    float: right;
+    margin-right: 20px;
 }
