@@ -17,7 +17,7 @@ body {
     background-color: black;
 }
 
-div {
+#info{
     background-color: #14213D;
 }
 
@@ -30,7 +30,7 @@ d {
 .topNav {
     position: fixed;
     overflow: hidden;
-    background-color: #E5E5E5;
+    background-color: #14213D;
     top: 0;
     left: 0;
     width: 99%;
@@ -94,9 +94,10 @@ p{
     font-family: 'Kefa',sans-serif;
     color: white;
 }
-/*div{
-    background-color: #14213D;
-    }*/
+
+#pageMain{
+    background-color:white;
+}
 
 d{
     font-family:'Semi-Straight',sans-serif;
