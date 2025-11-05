@@ -96,7 +96,7 @@ p{
 }
 
 #pageMain{
-    background-color:white;
+    background-color:black;
 }
 
 d{
@@ -210,4 +210,5 @@ img{
     float: right;
     margin-right: 20px;
 }
+
 
