@@ -1,5 +1,3 @@
-
-/* external css file*/
 @import url('https://www.dafontfree.io/impact-font/?family=Impact');
 @import url('https://fonnts.com/kefa/?family=Kefa');
 @font-face {
@@ -105,8 +103,9 @@ body {
     gap: 20px;
 }
 .image-container img{
-    max-width: 200px;
-    max-height: 150px;
+    content: url('mProductimg.png');
+    max-width: 600px;
+    max-height: 450px;
     border-radius: 8px;
 }
 
