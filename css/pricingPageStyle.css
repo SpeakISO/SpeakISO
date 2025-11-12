@@ -162,53 +162,37 @@ img{
     flex-direction: column;
 }
 
-
-
 /* bottom navigator bar */
 .botNav {
-    overflow: hidden;
-    background-color: #E5E5E5;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 2px;
-    text-align: left;
-    background: #14213D;
-    color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14213D;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 4px 20px;
+  color: #E5E5E5;
+  box-sizing: border-box;
 }
 
 .botNav-left {
-    color: #E5E5E5;
-    float: left;
-    text-align: center;
-    padding: 4px 4px;
-    text-decoration: none;
-    font-size: 10px;
-    line-height: 10px;
-    border-radius: 4px;
+  font-size: 10px;
 }
 
-.botNav-right .twt {
-    padding: 5px;
-    background-color: #aaa;
-    margin: 8px;
-    float: right;
+.botNav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.botNav-right .fb {
-    padding: 5px;
-    background-color: #aaa;
-    margin: 8px;
-    float: right;
+.botNav-right img {
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  padding: 5px;
 }
 
-.botNav-right .ig {
-    padding: 5px;
-    background-color: #aaa;
-    margin: 8px;
-    float: right;
-    margin-right: 20px;
-}
 
 
