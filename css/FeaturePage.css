@@ -1,26 +1,4 @@
-@import url('https://www.dafontfree.io/impact-font/?family=Impact');
-@import url('https://fonnts.com/kefa/?family=Kefa');
-@font-face {
-    font-family: Capitol;
-    src: url('../Fonts/CapitolCitySemiStraight-9M5Gj.otf') format('opentype');
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Impact','Kefa',sans-serif;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-.topNav {
-    position: fixed;
-    overflow: hidden;
-    background-color: #E5E5E5;
-    top: 0;
+
     left: 0;
     width: 99%;
     padding: 10px 10px;
@@ -176,15 +154,17 @@ body {
     bottom: 0;
     width: 100%;
     padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: left;
     background: #14213D;
     color: #E5E5E5;
 }
 
 .botNav-left {
-    color: #E5E5E5;
-    float: left;
-    text-align: center;
+    font-size: 10px;
+    border-radius: 4px;
     padding: 4px 4px;
     text-decoration: none;
     font-size: 10px;
@@ -192,24 +172,31 @@ body {
     border-radius: 4px;
 }
 
+.botNav-right {
+    padding: 5px;
+    gap: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.botNav-right .ig,
+.botNav-right .fb,
 .botNav-right .twt {
-    padding: 5px;
-    background-color: #aaa;
-    margin: 8px;
-    float: right;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.botNav-right .fb {
-    padding: 5px;
-    background-color: #aaa;
-    margin: 8px;
-    float: right;
-}
-
-.botNav-right .ig {
-    padding: 5px;
-    background-color: #aaa;
-    margin: 8px;
-    float: right;
-    margin-right: 20px;
+.botNav-right .ig img,
+.botNav-right .fb img,
+.botNav-right .twt img {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
 }
