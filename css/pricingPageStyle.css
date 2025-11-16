@@ -26,6 +26,10 @@ d {
 
 }
 
+
+
+
+
 /* top navigator bar */
 .topNav {
     position: fixed;
@@ -73,7 +77,7 @@ d {
 
 
 
-
+/*styles*/
 
 * {
     margin: 0;
@@ -130,10 +134,23 @@ d{
     color: #FFD700;
 }
 
+#buttonPurchase{
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    font-family: 'Kefa',sans-serif;
+    color:#14213D; 
+}
+
 img{
     width: 30%;
     height: auto;
+    
 }
+
+
+
+
 
 /* End of base styles*/
 
@@ -143,11 +160,6 @@ img{
 
 }
 
-/*#buttonPurchase{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}*/
 
 #pageMain {
     display: flex;
@@ -157,10 +169,20 @@ img{
     
 }
 
+#buttonPurchase{
+    align-self: flex-end;
+}
+
 #info{
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
 
 /* bottom navigator bar */
 .botNav {
