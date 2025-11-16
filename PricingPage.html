@@ -3,22 +3,23 @@
 
 <head>
     <link rel="stylesheet" href="css/pricingPageStyle.css" />
-    <script src="pricingPageJS.js"></script>
-
 </head>
-<div class="topNav">
-    <!-- CLASS ACTIVE WILL CHANGE DEPENDING ON THE PAGE!!! example:-->
-    <!--<a href="#home" class="active SpeakISO">SpeakISO</a>-->
-    <a href="homePage.html" class="SpeakISO">SpeakISO</a>
-
-    <div class="topNav-right">
-        <a href="ProductPage.html">Product</a>
-        <a href="pricingPage.html" class="active">Pricing</a>
-        <a href="TeamPage.html">Team</a>
-    </div>
-</div>
 
 <body>
+
+    <div class="topNav">
+        <!-- CLASS ACTIVE WILL CHANGE DEPENDING ON THE PAGE!!! example:-->
+        <!--<a href="#home" class="active SpeakISO">SpeakISO</a>-->
+        <a href="homePage.html" class="SpeakISO">SpeakISO</a>
+
+        <div class="topNav-right">
+            <a href="ProductPage.html">Product</a>
+            <a href="pricingPage.html" class="active">Pricing</a>
+            <a href="TeamPage.html">Team</a>
+        </div>
+    </div>
+
+
     <div id="pageMain">
         <img src="Images/img_speaker.jpg">
         <div id="containerMain">
@@ -33,28 +34,28 @@
                         <p>$ 239.99 (5 reviews)</p>
                     </h4>
                     <p id="starReview">★★★★☆</p>
+                    <button id="buttonPurchase" name="buttonPurchase" type="submit" value="buy">Purchase</button>
                 </div>
 
-                <button id="buttonPurchase" name="buttonPurchase" type="submit" value="buy">Purchase</button>
+                <!--<button id="buttonPurchase" name="buttonPurchase" type="submit" value="buy">Purchase</button>-->
             </form>
         </div>
     </div>
+    
 
-</body>
+    <div class="botNav">
+        <div class="botNav-left">
+            <p>© 2025 SpeakISO, All rights reserved.</p>
+        </div>
 
-<div class="botNav">
-  <div class="botNav-left">
-    <p>© 2025 SpeakISO, All rights reserved.</p>
-  </div>
-
-  <div class="botNav-right">
-    <img src="images/igLogo.png" alt="Instagram" style="height: 32px; width: 32px;">
-    <img src="images/fbLogo.png" alt="Facebook" style="height: 32px; width: 32px;">
-    <img src="images/xLogo.png" alt="Twitter" style="height: 32px; width: 32px;">
-  </div>
+        <div class="botNav-right">
+            <img src="images/igLogo.png" alt="Instagram" style="height: 32px; width: 32px;">
+            <img src="images/fbLogo.png" alt="Facebook" style="height: 32px; width: 32px;">
+            <img src="images/xLogo.png" alt="Twitter" style="height: 32px; width: 32px;">
+        </div>
 </div>
 
+    <script src="Javascript/pricingPageJS.js"></script>
+</body>
+
 </html>
-
-
-
