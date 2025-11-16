@@ -168,3 +168,9 @@ d {
     object-fit: cover;
     display: block;
 }
+.teamName {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
