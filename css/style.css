@@ -89,10 +89,14 @@ d {
  }
     
 .teamContainer {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px; /* spacing between items */
+  justify-items: center; /* center images and text */
+  align-items: start;
+  margin-top: 30px;
 }
+
 .teamMember img {
     width: 150px;
     height: 150px;  
@@ -147,4 +151,20 @@ d {
     margin: 8px;
     float: right;
     margin-right: 20px;
+}
+
+.writeup img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.botNav-right .ig img,
+.botNav-right .fb img,
+.botNav-right .twt img {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
 }
