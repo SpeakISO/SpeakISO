@@ -1,4 +1,26 @@
-
+@import url('https://www.dafontfree.io/impact-font/?family=Impact');
+@import url('https://fonnts.com/kefa/?family=Kefa');
+@font-face {
+    font-family: Capitol;
+    src: url('../Fonts/CapitolCitySemiStraight-9M5Gj.otf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Impact','Kefa',sans-serif;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.topNav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #E5E5E5;
+    top: 0;
     left: 0;
     width: 99%;
     padding: 10px 10px;
